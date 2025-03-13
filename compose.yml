@@ -1,0 +1,7 @@
+services:
+  vintage-story:
+    image: ich777/vintagestory:latest
+    ports:
+      - "42420:42420"
+    volumes:
+      - $HOME/appdata/vintagestory:/vintagestory
